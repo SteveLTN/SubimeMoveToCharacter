@@ -10,7 +10,7 @@ class MoveToCharacterCommand(sublime_plugin.TextCommand):
             line = self.view.substr(sublime.Region(pt, lr.b))
             idx = line.find(char, 1)
             if idx >= 0:
-                return pt + idx + extra
+                return pt + idx + extra + 1
         else:
             line = self.view.substr(sublime.Region(lr.a, pt))[::-1]
             idx = line.find(char, 0)
