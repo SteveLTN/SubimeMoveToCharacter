@@ -11,3 +11,7 @@ It does not come with default key bindings. You can add it by:
   ```
 
 Inspired by [Sublime Text Vintage Mode](https://github.com/sublimehq/Vintage).
+
+
+## Usage
+Clone or download this repo to `~/Library/Application Support/Sublime Text 3/Packages`
